@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+@font-face {
+    font-family: marvenpro;
+    src: url("../fonts/MavenPro-Regular.ttf");
+}
+header{
+    font-family: marvenpro;
+    display: flex;
+    justify-content: space-between;
+    justify-content: baseline;
+    gap: 1rem;
+    height: 10vh;
+    width: 100%;
+    align-items: baseline;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 1.5rem;
+}
+.kontakt{
+    background-color: blueviolet;
+    border-radius: 1rem;
+    padding:  .5rem  1rem;
+}
+.name{
+    color: blueviolet;
+    padding-left: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
